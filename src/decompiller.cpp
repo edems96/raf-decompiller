@@ -181,6 +181,7 @@ void Usage(char* program) {
 	fprintf(stdout, "\t[ -o /path/ ] - output path\n");
 	fprintf(stdout, "\t[ -t ] - DEBUG MODE\n");
 	fprintf(stdout, "\t[ -l ] - Logging into file\n");
+	fprintf(stdout, "\t[ -a ] - Log will be appended into file\n");
 	fprintf(stdout, "\t[ -h ] - Shows usage (this)\n");
 }
 
