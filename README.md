@@ -5,24 +5,32 @@ League of Legends .raf and .raf.dat decompiller
 
 You can decompile your League of Legends .raf and .raf.dat files
 
-######################################################################################
+===============
 
-USAGE: 
+###USAGE:
 
-  decompiller.exe -f file.raf
-
-  [ -d file.raf.dat ] - .raf.dat file path
-  [ -o /path/ ] - output path
-  [ -t ] - DEBUG MODE
-  [ -l ] - Logging into file
-  [ -a ] - Log will be appended into file
-  [ -h ] - Shows usage (this)
-
-
-#######################################################################################
+>   **decompiller.exe -f file.raf [OPTIONS]**
+>
+> [OPTIONS]:
+-  [ -d file.raf.dat ] - .raf.dat file path
+-  [ -o /path/ ] - output path
+-  [ -t ] - DEBUG MODE
+-  [ -l ] - Logging into file
+-  [ -a ] - Log will be appended into file
+-  [ -h ] - Shows usage (this)
 
 
-ZLIB DATA COMPRESSION LIBRARY
+===============
+
+###LINKS:
+
+- .raf file structure documentation: http://leagueoflegends.wikia.com/wiki/RAF:_Riot_Archive_File
+- Riot posted forum: http://forums.na.leagueoflegends.com/board/showthread.php?t=701772
+- ZLIB Compressed Data Format Specification version 3.3: http://tools.ietf.org/html/rfc1950
+
+===============
+
+###ZLIB DATA COMPRESSION LIBRARY
 
 zlib 1.2.8 is a general purpose data compression library.  All the code is
 thread safe.  The data format used by the zlib library is described by RFCs
