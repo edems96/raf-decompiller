@@ -3,7 +3,7 @@ raf-decompiller
 
 League of Legends .raf and .raf.dat decompiller
 
-# You can decompile your League of Legends .raf and .raf.dat files
+You can decompile your League of Legends .raf and .raf.dat files
 
 
 #######################################################################################
